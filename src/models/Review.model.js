@@ -1,8 +1,8 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
 const reviewSchema = mongoose.Schema({
   content: String,
 });
 
-const reviewModel = mongoose.Model("Review", reviewSchema);
-module.exports = reviewModel;
+const reviewModel = mongoose.model("Review", reviewSchema);
+export default reviewModel;

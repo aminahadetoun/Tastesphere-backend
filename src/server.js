@@ -1,16 +1,16 @@
-const dotenv = require("dotenv");
-const app = require("./app");
-const PORT = require("./config/env").PORT;
-const connectDB = require("./config/db");
-const logger = require("./config/logger");
+import dotenv from "dotenv";
+import app from "./app.js";
+import config from "./config/env.js";
+import connectDB from "./config/db.js";
+import logger from "./config/logger.js";
 
 dotenv.config();
 
 async function startServer() {
   await connectDB();
 
-  app.listen(PORT, () => {
-    logger.info(`Server is running on port ${PORT}`);
+  app.listen(config.PORT, () => {
+    logger.info(`Server is running on port ${config.PORT}`);
   });
 }
 

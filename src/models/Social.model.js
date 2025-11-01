@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
-const restaurantModel = require("./Restaurant.model");
+import mongoose from "mongoose";
+const restaurantModel = require("./Restaurant.model.js");
 
 const socialSchema = mongoose.Schema({
   link: String,
@@ -9,5 +9,5 @@ const socialSchema = mongoose.Schema({
   },
 });
 
-const socialModel = mongoose.Model("Social", socialSchema);
-module.exports = socialModel;
+const socialModel = mongoose.model("Social", socialSchema);
+export default socialModel;

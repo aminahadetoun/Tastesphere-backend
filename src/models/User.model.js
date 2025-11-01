@@ -1,4 +1,7 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
+import jwt from "jsonwebtoken";
+import bcrypt from "bcryptjs";
+import env from "../config/env.js";
 
 const userSchema = mongoose.Schema({
   firstName: String,
@@ -23,5 +26,40 @@ const userSchema = mongoose.Schema({
   dateOfBirth: Date,
 });
 
-const userModel = mongoose.Model("User", userSchema);
-module.exports = userModel;
+userSchema.pre("save", async function (next) {
+  if (!this.isModified("password")) return next();
+  const salt = await bcrypt.genSalt(10);
+  this.password = await bcrypt.hash(this.password, salt);
+  next();
+});
+
+userSchema.methods.verifyPassword = function (pw) {
+  return bcrypt.compare(pw, this.password);
+};
+
+userSchema.methods.generateRefreshToken = function () {
+  const jwtSecret = env.JWT_REFRESH_SECRET;
+  return jwt.sign({ id: this._id }, jwtSecret, {
+    expiresIn: "1d", // 1 day
+  });
+};
+
+userSchema.methods.generateAccessToken = function () {
+  const jwtSecret = env.JWT_ACCESS_SECRET;
+  const jwtExpiresIn = env.JWT_ACCESS_EXPIRES_IN;
+
+  return jwt.sign(
+    {
+      id: this._id,
+      email: this.email,
+    },
+    jwtSecret,
+    {
+      expiresIn:
+        jwtExpiresIn && typeof jwtExpiresIn === "string" ? jwtExpiresIn : "15m",
+    }
+  );
+};
+
+const userModel = mongoose.model("User", userSchema);
+export default userModel;

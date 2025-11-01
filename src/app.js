@@ -1,8 +1,9 @@
-const express = require("express");
-const cors = require("cors");
-const morgan = require("morgan");
-const env = require("./config/env");
-const logger = require("./config/logger");
+import express from "express";
+import cors from "cors";
+import morgan from "morgan";
+import env from "./config/env.js";
+import logger from "./config/logger.js";
+import routes from "./routes/index.route.js";
 
 const app = express();
 app.use(cors({ origin: env.CORS_ORIGIN, credentials: true }));
@@ -15,8 +16,10 @@ app.use(
     },
   })
 );
-app.get("/girl", (req, res) => {
+
+app.use("/api/v1", routes);
+app.get("/api/health", (req, res) => {
   res.send("Hellooo world!");
 });
 
-module.exports = app;
+export default app;

@@ -25,7 +25,41 @@ export const createRecipe = async (req, res) => {
 // ✅ GET ALL RECIPES
 export const getRecipes = async (req, res) => {
   try {
-    const recipes = await Recipe.find();
+    const { q, size, number, sort } = req.query;
+    let query = {};
+
+    if (q) {
+      const parts = q.split(",");
+
+      parts.forEach((pair) => {
+        let [key, value] = pair.split(":");
+        if (!key || !value) return;
+
+        value = value.replace(/"/g, "");
+
+        // Check if ID search
+        if (key === "id" || key === "_id") {
+          if (mongoose.Types.ObjectId.isValid(value)) {
+            query["_id"] = value;
+          }
+          return;
+        }
+
+        // General text fields use regex
+        query[key] = { $regex: value, $options: "i" };
+      });
+    }
+    const limit = parseInt(size) || 20;        // default 20
+    const skip = parseInt(number) * limit || 0;
+
+    let sortQuery = {};
+
+    if (sort) {
+      const [field, direction] = sort.split(":");
+      sortQuery[field] = direction === "desc" ? -1 : 1;
+    }
+
+    const recipes = await Recipe.find(query).sort(sortQuery).skip(skip).limit(limit);
     res.status(200).json(recipes);
   } catch (error) {
     res.status(500).json({ message: "Failed to fetch recipes", error });

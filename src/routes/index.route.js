@@ -9,6 +9,7 @@ import replyRoutes from "./Reply.route.js";
 import restaurantRoutes from "./Restaurant.route.js";
 import reviewRoutes from "./Review.route.js";
 import userRoutes from "./User.route.js";
+// import socialRoutes from "./Social.route";
 import authRoutes from "./Auth.route.js";
 
 const router = express.Router();

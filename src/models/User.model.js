@@ -22,8 +22,7 @@ const userSchema = mongoose.Schema({
   },
 
   location: String,
-  profilePicture: String,
-  dateOfBirth: Date,
+  profilePicture: { type: String, default: null },
 });
 
 userSchema.pre("save", async function (next) {
@@ -55,8 +54,7 @@ userSchema.methods.generateAccessToken = function () {
     },
     jwtSecret,
     {
-      expiresIn:
-        jwtExpiresIn && typeof jwtExpiresIn === "string" ? jwtExpiresIn : "15m",
+      expiresIn: "15m",
     }
   );
 };

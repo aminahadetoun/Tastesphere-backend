@@ -10,6 +10,7 @@ import restaurantRoutes from "./Restaurant.route.js";
 import reviewRoutes from "./Review.route.js";
 import userRoutes from "./User.route.js";
 // import socialRoutes from "./Social.route";
+import authRoutes from "./Auth.route.js";
 
 const router = express.Router();
 
@@ -23,5 +24,6 @@ router.use("/reply", replyRoutes);
 router.use("/restaurant", restaurantRoutes);
 router.use("/review", reviewRoutes);
 router.use("/user", userRoutes);
+router.use("/auth", authRoutes);
 
 export default router;

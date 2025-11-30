@@ -2,26 +2,18 @@ import User from "../models/User.model.js";
 
 export const createUser = async (req, res) => {
   try {
-    const {
-      first_name,
-      last_name,
-      email,
-      date_of_birth,
-      location,
-      profile_picture,
-    } = req.body;
+    const { firstName, lastName, email, location, password } = req.body;
 
-    const existingUser = await User.findOne({ email });
+    const existingUser = await User.findOne({ email }).select("-password");
     if (existingUser)
       return res.status(400).json({ message: "Email already in use" });
 
     const newUser = new User({
-      first_name,
-      last_name,
+      firstName,
+      lastName,
       email,
-      date_of_birth,
       location,
-      profile_picture,
+      password,
     });
 
     await newUser.save();
@@ -87,15 +79,16 @@ export const loginUser = async (req, res) => {
     if (!user)
       return res.status(400).json({ message: "Invalid email or password" });
 
-    const isMatch = await user.comparePassword(password);
+    const isMatch = await user.verifyPassword(password);
     if (!isMatch)
       return res.status(400).json({ message: "Invalid email or password" });
+    console.log(user);
 
-    const token = jwt.sign({ id: user._id }, JWT_SECRET, { expiresIn: "7d" });
-
+    const accessToken = user.generateAccessToken();
+    const refreshToken = user.generateRefreshToken();
     res.status(200).json({
       message: "Login successful",
-      token,
+      // token: { accessToken, refreshToken },
       user,
     });
   } catch (error) {

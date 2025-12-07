@@ -8,7 +8,7 @@ const recipeSchema = mongoose.Schema(
     steps: [String],
     picture: String,
     tags: [String],
-    cuisineType: {
+    cuisine: {
       type: String,
       enum: [
         "Italian",
@@ -23,9 +23,9 @@ const recipeSchema = mongoose.Schema(
         "American",
       ],
     },
-    prepTime: Number, // in minutes
-    cookTime: Number, // in minutes
-    servings: Number,
+    prepTime: String, // in minutes
+    cookTime: String, // in minutes
+    servings: String,
     difficulty: {
       type: String,
       enum: ["Easy", "Medium", "Hard"],
@@ -53,7 +53,8 @@ const recipeSchema = mongoose.Schema(
     },
     instructions: {
       type: [String],
-      required: true,
+      // required: true,
+      default: null,
     },
     tags: [String],
   },

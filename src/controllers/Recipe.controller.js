@@ -5,13 +5,7 @@ export const createRecipe = async (req, res) => {
   try {
     const { title, ingredients, steps, picture, tags } = req.body;
 
-    const newRecipe = new Recipe({
-      title,
-      ingredients,
-      steps,
-      picture,
-      tags,
-    });
+    const newRecipe = new Recipe(req.body);
 
     await newRecipe.save();
     res
@@ -49,7 +43,7 @@ export const getRecipes = async (req, res) => {
         query[key] = { $regex: value, $options: "i" };
       });
     }
-    const limit = parseInt(size) || 20;        // default 20
+    const limit = parseInt(size) || 20; // default 20
     const skip = parseInt(number) * limit || 0;
 
     let sortQuery = {};
@@ -59,7 +53,10 @@ export const getRecipes = async (req, res) => {
       sortQuery[field] = direction === "desc" ? -1 : 1;
     }
 
-    const recipes = await Recipe.find(query).sort(sortQuery).skip(skip).limit(limit);
+    const recipes = await Recipe.find(query)
+      .sort(sortQuery)
+      .skip(skip)
+      .limit(limit);
     res.status(200).json(recipes);
   } catch (error) {
     res.status(500).json({ message: "Failed to fetch recipes", error });

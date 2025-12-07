@@ -1,7 +1,6 @@
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
-import env from "./config/env.js";
 import logger from "./config/logger.js";
 import routes from "./routes/index.route.js";
 

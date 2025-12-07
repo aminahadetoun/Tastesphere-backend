@@ -4,9 +4,11 @@ const recipeSchema = mongoose.Schema(
   {
     title: String,
     description: String,
-    ingredients: [String],
     steps: [String],
-    picture: String,
+    image: {
+      type: String,
+      default: null
+    },
     tags: [String],
     cuisine: {
       type: String,
@@ -21,6 +23,9 @@ const recipeSchema = mongoose.Schema(
         "Thai",
         "Mediterranean",
         "American",
+        "Greek",
+        "Spanish",
+        "Middle Eastern",
       ],
     },
     prepTime: String, // in minutes

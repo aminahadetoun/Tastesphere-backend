@@ -473,3 +473,69 @@
 [2025-12-07 15:44:16] INFO: [morgan] [0mGET /api/v1/recipe [36m304[0m 354.228 ms - -[0m  
 [2025-12-07 15:46:41] INFO: Server is running on port 5000  
 [2025-12-07 15:52:42] INFO: Server is running on port 5000  
+[2025-12-07 16:05:14] INFO: Server is running on port 8080  
+[2025-12-07 16:09:10] INFO: Server is running on port 8080  
+[2025-12-07 16:10:49] INFO: Server is running on port 8080  
+[2025-12-07 16:18:43] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 406.231 ms - 260[0m  
+[2025-12-07 16:21:45] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 335.610 ms - 260[0m  
+[2025-12-07 16:21:46] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 172.770 ms - 2[0m  
+[2025-12-07 16:21:46] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 182.633 ms - 2[0m  
+[2025-12-07 16:22:55] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 178.254 ms - 2[0m  
+[2025-12-07 16:22:55] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 182.566 ms - 2[0m  
+[2025-12-07 16:24:32] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 33.782 ms - 1124[0m  
+[2025-12-07 16:24:33] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 178.314 ms - 2[0m  
+[2025-12-07 16:24:33] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 177.748 ms - 2[0m  
+[2025-12-07 16:27:53] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 7.587 ms - 868[0m  
+[2025-12-07 16:27:53] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 189.747 ms - 2[0m  
+[2025-12-07 16:27:53] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 188.619 ms - 2[0m  
+[2025-12-07 16:31:26] INFO: [morgan] [0mPOST /api/v1/recipe [32m201[0m 270.852 ms - 605[0m  
+[2025-12-07 16:31:26] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 260.025 ms - 558[0m  
+[2025-12-07 16:31:26] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 264.080 ms - 558[0m  
+[2025-12-07 16:34:24] INFO: Server is running on port 8080  
+[2025-12-07 16:34:31] INFO: Server is running on port 8080  
+[2025-12-07 16:34:36] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 283.125 ms - 603[0m  
+[2025-12-07 16:35:54] INFO: Server is running on port 8080  
+[2025-12-07 16:36:05] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 907.532 ms - 625[0m  
+[2025-12-07 16:37:21] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 495.625 ms - 625[0m  
+[2025-12-07 16:38:55] INFO: Server is running on port 8080  
+[2025-12-07 16:38:59] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 275.186 ms - 625[0m  
+[2025-12-07 16:41:52] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 129.440 ms - 625[0m  
+[2025-12-07 16:41:58] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 122.692 ms - 625[0m  
+[2025-12-07 16:42:29] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 117.888 ms - 625[0m  
+[2025-12-07 16:43:41] INFO: [morgan] [0mGET /api/v1/recipe [0m-[0m - ms - -[0m  
+[2025-12-07 16:43:43] INFO: [morgan] [0mGET /api/v1/recipe [0m-[0m - ms - -[0m  
+[2025-12-07 16:43:44] INFO: [morgan] [0mGET /api/v1/recipe [0m-[0m - ms - -[0m  
+[2025-12-07 16:43:49] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 4316.488 ms - 625[0m  
+[2025-12-07 16:44:02] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 4309.631 ms - 625[0m  
+[2025-12-07 16:47:06] INFO: [morgan] [0mGET /api/v1/recipe?q=search%3Ae [32m200[0m 140.654 ms - 69[0m  
+[2025-12-07 16:47:09] INFO: [morgan] [0mGET /api/v1/recipe?q=search%3Aeba [32m200[0m 783.657 ms - 69[0m  
+[2025-12-07 16:47:24] INFO: [morgan] [0mGET /api/v1/recipe?q=search%3Ae [32m200[0m 125.832 ms - 69[0m  
+[2025-12-07 16:47:52] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 126.989 ms - 625[0m  
+[2025-12-07 16:49:27] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 134.917 ms - 625[0m  
+[2025-12-07 16:49:38] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1356.632 ms - 625[0m  
+[2025-12-07 16:50:53] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1270.165 ms - 625[0m  
+[2025-12-07 16:51:02] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 897.924 ms - 625[0m  
+[2025-12-07 16:51:08] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 160.062 ms - 625[0m  
+[2025-12-07 16:54:23] INFO: [morgan] [0mPOST /api/v1/recipe [32m201[0m 1918.190 ms - 1099[0m  
+[2025-12-07 16:54:38] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 5984.188 ms - 1676[0m  
+[2025-12-07 16:55:59] INFO: Server is running on port 8080  
+[2025-12-07 17:08:21] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 14156.414 ms - 1702[0m  
+[2025-12-07 17:08:21] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 14152.484 ms - 1702[0m  
+[2025-12-07 17:25:26] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 245.215 ms - 1702[0m  
+[2025-12-07 17:25:48] INFO: [morgan] [0mPOST /api/v1/recipe [32m201[0m 441.950 ms - 1729[0m  
+[2025-12-07 17:25:59] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 220.871 ms - 3383[0m  
+[2025-12-07 17:26:58] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 356.991 ms - 3383[0m  
+[2025-12-07 17:47:49] INFO: [morgan] [0mPOST /api/v1/recipe [32m201[0m 2327.536 ms - 992[0m  
+[2025-12-07 17:48:16] INFO: [morgan] [0mPOST /api/v1/recipe [32m201[0m 217.088 ms - 1010[0m  
+[2025-12-07 17:49:01] INFO: [morgan] [0mPOST /api/v1/recipe [32m201[0m 220.710 ms - 938[0m  
+[2025-12-07 17:49:21] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 4.921 ms - 626[0m  
+[2025-12-07 17:51:02] INFO: Server is running on port 8080  
+[2025-12-07 17:51:26] INFO: [morgan] [0mPOST /api/v1/recipe [32m201[0m 12223.752 ms - 1028[0m  
+[2025-12-07 17:51:48] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1361.330 ms - 7159[0m  
+[2025-12-07 17:54:24] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 7017.284 ms - 7159[0m  
+[2025-12-07 17:57:13] INFO: [morgan] [0mGET /api/v1/recipe/69359dce6b43e9bafabd81f2 [32m200[0m 155.344 ms - 569[0m  
+[2025-12-07 17:57:23] INFO: [morgan] [0mDELETE /api/v1/recipe/69359dce6b43e9bafabd81f2 [32m200[0m 112.385 ms - 41[0m  
+[2025-12-07 17:58:39] INFO: [morgan] [0mPATCH /api/v1/recipe/6935a32d58073e8026b1723d [32m200[0m 103.894 ms - 1338[0m  
+[2025-12-07 17:58:53] INFO: [morgan] [0mGET /api/v1/recipe/69359dce6b43e9bafabd81f2 [33m404[0m 262.752 ms - 30[0m  
+[2025-12-07 17:58:59] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 323.487 ms - 6815[0m  
+[2025-12-07 17:59:10] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 738.742 ms - 6815[0m  

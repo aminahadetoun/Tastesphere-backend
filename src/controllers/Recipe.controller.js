@@ -57,9 +57,16 @@ export const getRecipes = async (req, res) => {
       .sort(sortQuery)
       .skip(skip)
       .limit(limit);
-    res.status(200).json(recipes);
+    res.status(200).json({
+      status: "Successful",
+      data: recipes,
+      pagination: {
+        size: limit,
+        number: parseInt(number) || 0,
+      },
+    });
   } catch (error) {
-    res.status(500).json({ message: "Failed to fetch recipes", error });
+    res.status(500).json({ message: "Failed to fetch recipes" });
   }
 };
 

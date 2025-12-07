@@ -45,7 +45,6 @@ userSchema.methods.generateRefreshToken = function () {
 
 userSchema.methods.generateAccessToken = function () {
   const jwtSecret = env.JWT_ACCESS_SECRET;
-  const jwtExpiresIn = env.JWT_ACCESS_EXPIRES_IN;
 
   return jwt.sign(
     {

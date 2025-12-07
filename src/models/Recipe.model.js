@@ -9,6 +9,10 @@ const recipeSchema = mongoose.Schema(
       type: String,
       default: null
     },
+    image_public_id: {
+      type: String,
+      default: null
+    },
     tags: [String],
     cuisine: {
       type: String,
@@ -46,7 +50,6 @@ const recipeSchema = mongoose.Schema(
         "None",
       ],
     },
-    photo: String,
     ingredientList: {
       type: [
         {

@@ -1,17 +1,40 @@
 import Recipe from "../models/Recipe.model.js";
+import { generateUniqueFileName } from "../middlewares/multer.js";
+import { deleteFile, uploadToCloudinary } from "../services/cloudinary.service.js";
 
 // ✅ CREATE RECIPE
 export const createRecipe = async (req, res) => {
   try {
-    const { title, ingredients, steps, picture, tags } = req.body;
+     // Parse JSON fields manually
+    if (req.body.ingredientList) {
+      req.body.ingredientList = JSON.parse(req.body.ingredientList);
+    }
 
+    if (req.body.steps) {
+      req.body.steps = JSON.parse(req.body.steps);
+    }
+
+    if (req.body.tags) {
+      req.body.tags = JSON.parse(req.body.tags);
+    }
     const newRecipe = new Recipe(req.body);
-
+    if (!req.file) {
+      return res.status(400).json({ message: "Recipe Image is required" });
+    }
+    const uniqueName = generateUniqueFileName("recipe", req.user.id)
+    req.file.originalname = uniqueName;
+    const cloudinaryResponse = await uploadToCloudinary(req.file);
+    newRecipe.image = cloudinaryResponse.secure_url;
+    newRecipe.image_public_id = cloudinaryResponse.public_id;
     await newRecipe.save();
     res
       .status(201)
-      .json({ message: "Recipe created successfully", data: newRecipe });
+      .json({
+        status: "Successful",
+        data: null
+      });
   } catch (error) {
+    console.log(error);
     res.status(500).json({ message: "Failed to create recipe", error });
   }
 };
@@ -54,9 +77,11 @@ export const getRecipes = async (req, res) => {
     }
 
     const recipes = await Recipe.find(query)
+      .select("-image_public_id")
       .sort(sortQuery)
       .skip(skip)
       .limit(limit);
+
     res.status(200).json({
       status: "Successful",
       data: recipes,
@@ -73,7 +98,9 @@ export const getRecipes = async (req, res) => {
 // ✅ GET RECIPE BY ID
 export const getRecipeById = async (req, res) => {
   try {
-    const recipe = await Recipe.findById(req.params.id);
+    const recipe = await Recipe.findById(req.params.id).select(
+      "-image_public_id"
+    );
     if (!recipe) return res.status(404).json({ message: "Recipe not found" });
     res.status(200).json(recipe);
   } catch (error) {
@@ -103,6 +130,13 @@ export const updateRecipe = async (req, res) => {
 // ✅ DELETE RECIPE
 export const deleteRecipe = async (req, res) => {
   try {
+    const recipe = await Recipe.findById(req.params.id);
+    if (!recipe) {
+      return res.status(404).json({ message: "Recipe not found" });
+    }
+    if (recipe.image_public_id) {
+      await deleteFile(recipe.image_public_id);
+    }
     const deletedRecipe = await Recipe.findByIdAndDelete(req.params.id);
     if (!deletedRecipe)
       return res.status(404).json({ message: "Recipe not found" });

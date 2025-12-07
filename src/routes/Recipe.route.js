@@ -6,10 +6,12 @@ import {
   updateRecipe,
   deleteRecipe,
 } from "../controllers/Recipe.controller.js";
+import { upload } from "../middlewares/multer.js";
+import { requireAuth } from "../middlewares/auth.middleware.js";
 
 const router = express.Router();
 
-router.post("/", createRecipe);
+router.post("/",requireAuth, upload, createRecipe);
 router.get("/", getRecipes);
 router.get("/:id", getRecipeById);
 router.patch("/:id", updateRecipe);

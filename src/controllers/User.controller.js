@@ -87,9 +87,9 @@ export const loginUser = async (req, res) => {
     const accessToken = user.generateAccessToken();
     const refreshToken = user.generateRefreshToken();
     res.status(200).json({
-      message: "Login successful",
-      // token: { accessToken, refreshToken },
-      user,
+      status: "Successful",
+      token: { accessToken, refreshToken },
+      user: {_id: user._id, firstName: user.firstName, lastName: user.lastName, email: user.email, location: user.location },
     });
   } catch (error) {
     res.status(500).json({ message: "Login failed", error });

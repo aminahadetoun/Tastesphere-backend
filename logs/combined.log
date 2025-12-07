@@ -539,3 +539,204 @@
 [2025-12-07 17:58:53] INFO: [morgan] [0mGET /api/v1/recipe/69359dce6b43e9bafabd81f2 [33m404[0m 262.752 ms - 30[0m  
 [2025-12-07 17:58:59] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 323.487 ms - 6815[0m  
 [2025-12-07 17:59:10] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 738.742 ms - 6815[0m  
+[2025-12-07 18:28:21] INFO: Server is running on port 8080  
+[2025-12-07 18:34:13] INFO: Server is running on port 8080  
+[2025-12-07 18:34:27] INFO: Server is running on port 8080  
+[2025-12-07 18:34:58] INFO: Server is running on port 8080  
+[2025-12-07 18:35:25] INFO: Server is running on port 8080  
+[2025-12-07 18:36:25] INFO: Server is running on port 8080  
+[2025-12-07 18:36:47] INFO: Server is running on port 8080  
+[2025-12-07 18:37:09] INFO: Server is running on port 8080  
+[2025-12-07 18:37:20] INFO: Server is running on port 8080  
+[2025-12-07 18:37:42] INFO: Server is running on port 8080  
+[2025-12-07 18:38:22] INFO: Server is running on port 8080  
+[2025-12-07 18:38:47] INFO: Server is running on port 8080  
+[2025-12-07 18:39:02] INFO: Server is running on port 8080  
+[2025-12-07 18:40:07] INFO: Server is running on port 8080  
+[2025-12-07 18:41:18] INFO: Server is running on port 8080  
+[2025-12-07 18:41:36] INFO: Server is running on port 8080  
+[2025-12-07 18:44:53] INFO: Server is running on port 8080  
+[2025-12-07 18:45:08] INFO: Server is running on port 8080  
+[2025-12-07 18:45:15] INFO: Server is running on port 8080  
+[2025-12-07 18:45:21] INFO: Server is running on port 8080  
+[2025-12-07 18:45:27] INFO: Server is running on port 8080  
+[2025-12-07 18:45:33] INFO: Server is running on port 8080  
+[2025-12-07 18:45:42] INFO: Server is running on port 8080  
+[2025-12-07 18:45:50] INFO: Server is running on port 8080  
+[2025-12-07 18:45:53] INFO: Server is running on port 8080  
+[2025-12-07 18:56:29] INFO: Server is running on port 8080  
+[2025-12-07 18:56:54] INFO: Server is running on port 8080  
+[2025-12-07 18:57:01] INFO: Server is running on port 8080  
+[2025-12-07 18:57:10] INFO: Server is running on port 8080  
+[2025-12-07 18:57:53] INFO: Server is running on port 8080  
+[2025-12-07 18:58:31] INFO: Server is running on port 8080  
+[2025-12-07 18:58:34] INFO: Server is running on port 8080  
+[2025-12-07 18:59:46] INFO: Server is running on port 8080  
+[2025-12-07 19:19:35] INFO: Server is running on port 8080  
+[2025-12-07 19:20:19] INFO: Server is running on port 5000  
+[2025-12-07 19:21:14] INFO: Server is running on port 5000  
+[2025-12-07 19:32:59] INFO: [morgan] [0mPOST /api/v1/recipe [33m400[0m 41.541 ms - 38[0m  
+[2025-12-07 19:33:01] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1143.223 ms - 7390[0m  
+[2025-12-07 19:33:01] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1597.994 ms - 7390[0m  
+[2025-12-07 19:35:09] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 2416.945 ms - 7390[0m  
+[2025-12-07 19:49:49] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 566.387 ms - 7390[0m  
+[2025-12-07 19:51:25] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 51.413 ms - 1383[0m  
+[2025-12-07 19:51:27] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1006.039 ms - 7390[0m  
+[2025-12-07 19:51:27] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1045.352 ms - 7390[0m  
+[2025-12-07 19:53:38] INFO: Server is running on port 5000  
+[2025-12-07 19:56:29] INFO: [morgan] [0mDELETE /api/v1/recipe/6935b488bddc22f5b866a405 [32m200[0m 264.980 ms - 41[0m  
+[2025-12-07 19:57:16] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 908.006 ms - 6815[0m  
+[2025-12-07 19:59:31] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 35.321 ms - 48[0m  
+[2025-12-07 20:00:11] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 15.999 ms - 48[0m  
+[2025-12-07 20:02:06] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 11.559 ms - 48[0m  
+[2025-12-07 20:09:48] INFO: Server is running on port 5000  
+[2025-12-07 20:10:01] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 76.447 ms - 48[0m  
+[2025-12-07 20:10:38] INFO: Server is running on port 5000  
+[2025-12-07 20:12:48] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 66.258 ms - 48[0m  
+[2025-12-07 20:13:37] INFO: Server is running on port 5000  
+[2025-12-07 20:13:44] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 117.900 ms - 48[0m  
+[2025-12-07 20:18:46] INFO: Server is running on port 5000  
+[2025-12-07 20:19:48] INFO: Server is running on port 5000  
+[2025-12-07 20:19:55] INFO: Server is running on port 5000  
+[2025-12-07 20:20:04] INFO: Server is running on port 5000  
+[2025-12-07 20:20:09] INFO: Server is running on port 5000  
+[2025-12-07 20:20:51] INFO: Server is running on port 5000  
+[2025-12-07 20:20:55] INFO: Server is running on port 5000  
+[2025-12-07 20:21:07] INFO: Server is running on port 5000  
+[2025-12-07 20:21:32] INFO: Server is running on port 5000  
+[2025-12-07 20:21:38] INFO: Server is running on port 5000  
+[2025-12-07 20:23:28] INFO: Server is running on port 5000  
+[2025-12-07 20:23:37] INFO: Server is running on port 5000  
+[2025-12-07 20:23:56] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 515.932 ms - 444[0m  
+[2025-12-07 20:26:07] INFO: Server is running on port 5000  
+[2025-12-07 20:26:32] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 452.920 ms - 444[0m  
+[2025-12-07 20:26:34] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 211.168 ms - 6815[0m  
+[2025-12-07 20:26:34] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 228.016 ms - 6815[0m  
+[2025-12-07 20:26:42] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 234.347 ms - 6815[0m  
+[2025-12-07 20:26:43] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 292.603 ms - 6815[0m  
+[2025-12-07 20:28:28] INFO: Server is running on port 5000  
+[2025-12-07 20:28:34] INFO: Server is running on port 5000  
+[2025-12-07 20:28:39] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 1924.569 ms - 570[0m  
+[2025-12-07 20:29:11] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 2714.105 ms - 570[0m  
+[2025-12-07 20:29:11] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 152.726 ms - 6815[0m  
+[2025-12-07 20:29:11] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 138.461 ms - 6815[0m  
+[2025-12-07 20:31:12] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 44.977 ms - 1395[0m  
+[2025-12-07 20:32:51] INFO: Server is running on port 5000  
+[2025-12-07 20:34:10] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 13.638 ms - 1403[0m  
+[2025-12-07 20:34:34] INFO: Server is running on port 5000  
+[2025-12-07 20:34:42] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 11.946 ms - 1403[0m  
+[2025-12-07 20:34:43] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 6.981 ms - 1403[0m  
+[2025-12-07 20:34:45] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 18.370 ms - 1403[0m  
+[2025-12-07 20:34:46] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 5.138 ms - 1403[0m  
+[2025-12-07 20:34:46] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 7.540 ms - 1403[0m  
+[2025-12-07 20:34:46] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 23.585 ms - 1403[0m  
+[2025-12-07 20:35:31] INFO: Server is running on port 5000  
+[2025-12-07 20:35:39] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 17.485 ms - 1398[0m  
+[2025-12-07 20:40:27] INFO: Server is running on port 5000  
+[2025-12-07 20:40:41] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 15.960 ms - 1398[0m  
+[2025-12-07 20:41:55] INFO: Server is running on port 5000  
+[2025-12-07 20:42:03] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 31.772 ms - 1398[0m  
+[2025-12-07 20:56:33] INFO: Server is running on port 5000  
+[2025-12-07 20:57:25] INFO: Server is running on port 5000  
+[2025-12-07 20:57:31] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 22.746 ms - 1398[0m  
+[2025-12-07 20:58:19] INFO: Server is running on port 5000  
+[2025-12-07 20:58:28] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 26.276 ms - 1398[0m  
+[2025-12-07 21:00:41] INFO: Server is running on port 5000  
+[2025-12-07 21:01:17] INFO: Server is running on port 5000  
+[2025-12-07 21:01:27] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 19.920 ms - 1398[0m  
+[2025-12-07 21:03:23] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 456.917 ms - 570[0m  
+[2025-12-07 21:03:24] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 235.211 ms - 6815[0m  
+[2025-12-07 21:03:24] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 248.320 ms - 6815[0m  
+[2025-12-07 21:04:05] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 22.250 ms - 1398[0m  
+[2025-12-07 21:07:45] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 352.131 ms - 570[0m  
+[2025-12-07 21:07:46] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 220.574 ms - 6815[0m  
+[2025-12-07 21:07:46] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 250.411 ms - 6815[0m  
+[2025-12-07 21:09:17] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 196.338 ms - 6815[0m  
+[2025-12-07 21:09:46] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 418.685 ms - 570[0m  
+[2025-12-07 21:09:46] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 179.772 ms - 6815[0m  
+[2025-12-07 21:09:46] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 181.362 ms - 6815[0m  
+[2025-12-07 21:11:35] INFO: [morgan] [0mPOST /api/v1/recipe [32m201[0m 3541.923 ms - 777[0m  
+[2025-12-07 21:12:44] INFO: Server is running on port 5000  
+[2025-12-07 21:13:16] INFO: Server is running on port 5000  
+[2025-12-07 21:13:29] INFO: [morgan] [0mPOST /api/v1/recipe [32m201[0m 8751.367 ms - 759[0m  
+[2025-12-07 21:13:29] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 195.675 ms - 8273[0m  
+[2025-12-07 21:13:33] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 4483.609 ms - 8273[0m  
+[2025-12-07 21:14:23] INFO: Server is running on port 5000  
+[2025-12-07 21:14:46] INFO: Server is running on port 5000  
+[2025-12-07 21:16:07] INFO: [morgan] [0mPOST /api/v1/recipe [32m201[0m 3453.440 ms - 720[0m  
+[2025-12-07 21:16:07] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 319.261 ms - 8963[0m  
+[2025-12-07 21:16:07] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 359.691 ms - 8963[0m  
+[2025-12-07 21:17:35] INFO: Server is running on port 5000  
+[2025-12-07 21:17:38] INFO: Server is running on port 5000  
+[2025-12-07 21:17:42] INFO: Server is running on port 5000  
+[2025-12-07 21:18:07] INFO: Server is running on port 5000  
+[2025-12-07 21:18:22] INFO: Server is running on port 5000  
+[2025-12-07 21:18:34] INFO: Server is running on port 5000  
+[2025-12-07 21:18:48] INFO: Server is running on port 5000  
+[2025-12-07 21:20:26] INFO: Server is running on port 5000  
+[2025-12-07 21:20:29] INFO: Server is running on port 5000  
+[2025-12-07 21:20:35] INFO: Server is running on port 5000  
+[2025-12-07 21:20:38] INFO: Server is running on port 5000  
+[2025-12-07 21:20:48] INFO: Server is running on port 5000  
+[2025-12-07 21:21:00] INFO: Server is running on port 5000  
+[2025-12-07 21:21:10] INFO: Server is running on port 5000  
+[2025-12-07 21:21:53] INFO: Server is running on port 5000  
+[2025-12-07 21:21:56] INFO: Server is running on port 5000  
+[2025-12-07 21:22:02] INFO: Server is running on port 5000  
+[2025-12-07 21:23:39] INFO: Server is running on port 5000  
+[2025-12-07 21:23:43] INFO: Server is running on port 5000  
+[2025-12-07 21:23:46] INFO: Server is running on port 5000  
+[2025-12-07 21:23:59] INFO: Server is running on port 5000  
+[2025-12-07 21:24:08] INFO: Server is running on port 5000  
+[2025-12-07 21:24:12] INFO: Server is running on port 5000  
+[2025-12-07 21:24:17] INFO: Server is running on port 5000  
+[2025-12-07 21:24:23] INFO: Server is running on port 5000  
+[2025-12-07 21:25:07] INFO: Server is running on port 5000  
+[2025-12-07 21:25:23] INFO: Server is running on port 5000  
+[2025-12-07 21:25:56] INFO: [morgan] [0mPOST /api/v1/recipe [31m500[0m 29.242 ms - 1398[0m  
+[2025-12-07 21:27:01] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 371.894 ms - 570[0m  
+[2025-12-07 21:27:01] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 139.755 ms - 8127[0m  
+[2025-12-07 21:27:01] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 203.542 ms - 8127[0m  
+[2025-12-07 21:29:13] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 377.278 ms - 570[0m  
+[2025-12-07 21:29:14] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 300.861 ms - 8127[0m  
+[2025-12-07 21:29:14] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 380.232 ms - 8127[0m  
+[2025-12-07 21:29:23] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 201.679 ms - 8127[0m  
+[2025-12-07 21:31:37] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 194.186 ms - 8127[0m  
+[2025-12-07 21:32:10] INFO: Server is running on port 5000  
+[2025-12-07 21:32:13] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1980.363 ms - 8114[0m  
+[2025-12-07 21:33:24] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 328.358 ms - 8114[0m  
+[2025-12-07 21:34:04] INFO: Server is running on port 5000  
+[2025-12-07 21:34:14] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 452.563 ms - 8078[0m  
+[2025-12-07 22:05:55] INFO: Server is running on port 5000  
+[2025-12-07 22:06:16] INFO: Server is running on port 5000  
+[2025-12-07 22:06:39] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 777.660 ms - 8078[0m  
+[2025-12-07 22:07:03] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 528.558 ms - 570[0m  
+[2025-12-07 22:07:04] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1178.215 ms - 8078[0m  
+[2025-12-07 22:07:06] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 2969.850 ms - 8078[0m  
+[2025-12-07 22:07:58] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 445.040 ms - 8078[0m  
+[2025-12-07 22:09:51] INFO: Server is running on port 5000  
+[2025-12-07 22:10:24] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1431.262 ms - 8078[0m  
+[2025-12-07 22:11:27] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1198.623 ms - 8078[0m  
+[2025-12-07 22:12:48] INFO: Server is running on port 5000  
+[2025-12-07 22:12:51] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 2649.033 ms - 8963[0m  
+[2025-12-07 22:13:36] INFO: Server is running on port 5000  
+[2025-12-07 22:14:09] INFO: Server is running on port 5000  
+[2025-12-07 22:14:54] INFO: Server is running on port 5000  
+[2025-12-07 22:15:12] INFO: Server is running on port 5000  
+[2025-12-07 22:15:43] INFO: Server is running on port 5000  
+[2025-12-07 22:16:21] INFO: Server is running on port 5000  
+[2025-12-07 22:17:27] INFO: Server is running on port 5000  
+[2025-12-07 22:17:35] INFO: Server is running on port 5000  
+[2025-12-07 22:18:05] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1895.903 ms - 8963[0m  
+[2025-12-07 22:18:50] INFO: [morgan] [0mPOST /api/v1/auth/login [32m200[0m 1267.423 ms - 570[0m  
+[2025-12-07 22:18:52] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1413.453 ms - 8963[0m  
+[2025-12-07 22:18:54] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 3202.551 ms - 8963[0m  
+[2025-12-07 22:20:42] INFO: [morgan] [0mPOST /api/v1/recipe [32m201[0m 8362.459 ms - 35[0m  
+[2025-12-07 22:20:43] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 916.746 ms - 9710[0m  
+[2025-12-07 22:20:43] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 1387.390 ms - 9710[0m  
+[2025-12-07 22:21:47] INFO: [morgan] [0mDELETE /api/v1/recipe/6935df7381216b3a677c7908 [31m500[0m 3849.692 ms - 129[0m  
+[2025-12-07 22:22:51] INFO: Server is running on port 5000  
+[2025-12-07 22:22:58] INFO: [morgan] [0mDELETE /api/v1/recipe/6935df7381216b3a677c7908 [32m200[0m 1066.377 ms - 41[0m  
+[2025-12-07 22:23:25] INFO: [morgan] [0mDELETE /api/v1/recipe/6935dfe039cf61815868615c [32m200[0m 462.976 ms - 41[0m  
+[2025-12-07 22:23:59] INFO: [morgan] [0mDELETE /api/v1/recipe/6935e0838dab8a8cedaabb70 [32m200[0m 509.621 ms - 41[0m  
+[2025-12-07 22:24:07] INFO: [morgan] [0mGET /api/v1/recipe [32m200[0m 500.358 ms - 7562[0m  
